@@ -13,3 +13,13 @@
   z-index: -1;
   margin-bottom: -150px;
 }
+
+@media only screen and (max-width: 600px) {
+  .home__row {
+    flex-wrap: wrap;
+  }
+  .home__image {
+    margin-bottom: 0px;
+  }
+}
+
